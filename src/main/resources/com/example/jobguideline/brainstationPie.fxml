@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" style="-fx-background-color: #d6eaf8;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.jobguideline.brainstationpie2">
+   <children>
+      <PieChart fx:id="pie" layoutX="8.0" layoutY="24.0" prefHeight="558.0" prefWidth="803.0" />
+      <Button layoutX="357.0" layoutY="584.0" mnemonicParsing="false" onAction="#back" text="Back" textFill="#9e1d1d">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Button layoutX="627.0" layoutY="584.0" mnemonicParsing="false" onAction="#homePageOnAction" text="Home page" textFill="#cc1111">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
